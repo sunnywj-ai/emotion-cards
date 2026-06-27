@@ -124,21 +124,36 @@
     font-weight: 500;
   }
 
+  .back-content .subtitle {
+    font-size: 9pt;
+    margin-bottom: 8px;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .back-content .subtitle .star-icon {
+    width: 9pt;
+    height: 9pt;
+    flex-shrink: 0;
+  }
+
   .back-content .needs {
     font-size: 14pt;
-    margin-bottom: 28px;
+    margin-bottom: 36px;
     font-weight: 600;
     line-height: 1.6;
   }
 
-  .back-content .subtitle {
-    font-size: 11pt;
-    margin-bottom: 14px;
-    font-weight: 500;
+  .back-content .needs.small {
+    font-size: 12pt;
   }
 
   .back-content .question {
-    font-size: 7pt;
+    font-size: 8pt;
     line-height: 1.9;
     font-weight: 400;
     text-align: left;
@@ -267,35 +282,35 @@
     { name: '喜悦', label: '对应需求', needs: '连接感、生命力', subtitle: '陪自己看一看', question: '这份喜悦背后，你最珍惜自己正在经历的是什么？' },
     { name: '满足', label: '对应需求', needs: '安全感、平和', subtitle: '陪自己看一看', question: '这份满足背后，你觉得自己被照顾到的是哪一部分？' },
     { name: '宽慰', label: '对应需求', needs: '被支持、释放', subtitle: '陪自己看一看', question: '当你终于松一口气的时候，你觉得自己放下了什么？' },
-    { name: '兴奋', label: '对应需求', needs: '自主权、创造、选择', subtitle: '陪自己看一看', question: '这份兴奋背后，什么正在吸引你往前走？' },
-    { name: '感恩', label: '对应需求', needs: '贡献、被理解、被回馈', subtitle: '陪自己看一看', question: '这份感恩背后，你最深感受到的是哪一种连接？' },
+    { name: '兴奋', label: '对应需求', needs: '自主权、创造、<br>选择', subtitle: '陪自己看一看', question: '这份兴奋背后，什么正在吸引你往前走？' },
+    { name: '感恩', label: '对应需求', needs: '贡献、被理解、<br>被回馈', subtitle: '陪自己看一看', question: '这份感恩背后，你最深感受到的是哪一种连接？' },
     { name: '生气', label: '对应需求', needs: '效能感、支持', subtitle: '陪自己看一看', question: '如果这份生气会说话，它最想替你守住的是什么？' },
-    { name: '怨恨', label: '对应需求', needs: '公平、理解、被看见', subtitle: '陪自己看一看', question: '你心里一直过不去的，最深是在乎哪一件事？' },
-    { name: '受辱', label: '对应需求', needs: '尊严、价值感、安全', subtitle: '陪自己看一看', question: '这份受辱背后，你最想被保护住的是什么？' },
-    { name: '不甘', label: '对应需求', needs: '自主权、成长、选择', subtitle: '陪自己看一看', question: '这份不甘背后，你其实还想为自己争取什么？' },
+    { name: '怨恨', label: '对应需求', needs: '公平、理解、<br>被看见', subtitle: '陪自己看一看', question: '你心里一直过不去的，最深是在乎哪一件事？' },
+    { name: '受辱', label: '对应需求', needs: '尊严、价值感、<br>安全', subtitle: '陪自己看一看', question: '这份受辱背后，你最想被保护住的是什么？' },
+    { name: '不甘', label: '对应需求', needs: '自主权、成长、<br>选择', subtitle: '陪自己看一看', question: '这份不甘背后，你其实还想为自己争取什么？' },
     { name: '防卫', label: '对应需求', needs: '安全感、被接纳', subtitle: '陪自己看一看', question: '当你很想保护自己的时候，你最怕失去的是什么？' },
-    { name: '失望', label: '对应需求', needs: '希望、被理解、新方向', subtitle: '陪自己看一看', question: '这份失望背后，你原本很期待的是什么？' },
-    { name: '委屈', label: '对应需求', needs: '公正、被看见、被倾听', subtitle: '陪自己看一看', question: '你心里最希望别人明白你的哪一部分？' },
-    { name: '无力', label: '对应需求', needs: '安全感、支持、行动力', subtitle: '陪自己看一看', question: '如果现在有人能帮你一点点，你最希望被接住的是什么？' },
-    { name: '迷茫', label: '对应需求', needs: '清晰、指引、自主权', subtitle: '陪自己看一看', question: '如果先不用马上决定，你现在最需要一点什么，能让自己更清楚？' },
-    { name: '空虚', label: '对应需求', needs: '深度连接、温暖、归属感', subtitle: '陪自己看一看', question: '这份空虚背后，你最渴望重新连回什么？' },
+    { name: '失望', label: '对应需求', needs: '希望、被理解、<br>新方向', subtitle: '陪自己看一看', question: '这份失望背后，你原本很期待的是什么？' },
+    { name: '委屈', label: '对应需求', needs: '公正、被看见、<br>被倾听', subtitle: '陪自己看一看', question: '你心里最希望别人明白你的哪一部分？' },
+    { name: '无力', label: '对应需求', needs: '安全感、支持、<br>行动力', subtitle: '陪自己看一看', question: '如果现在有人能帮你一点点，你最希望被接住的是什么？' },
+    { name: '迷茫', label: '对应需求', needs: '清晰、指引、<br>自主权', subtitle: '陪自己看一看', question: '如果先不用马上决定，你现在最需要一点什么，能让自己更清楚？' },
+    { name: '空虚', label: '对应需求', needs: '温暖、归属感<br>深度连接', subtitle: '陪自己看一看', question: '这份空虚背后，你最渴望重新连回什么？' },
     { name: '焦虑', label: '对应需求', needs: '确定性、可预测性', subtitle: '陪自己看一看', question: '如果这份焦虑是在提醒你，它最在意的是什么？' },
-    { name: '紧张', label: '对应需求', needs: '安全感、保护、当下存在', subtitle: '陪自己看一看', question: '这份紧张背后，你最怕哪里出错？' },
-    { name: '恐慌', label: '对应需求', needs: '清晰感、秩序、指引', subtitle: '陪自己看一看', question: '如果先只做一件让自己安全一点的事，那会是什么？' },
-    { name: '怀疑', label: '对应需求', needs: '信任、真相、真实连接', subtitle: '陪自己看一看', question: '当你不太敢相信的时候，你最想确认的是什么？' },
-    { name: '厌恶', label: '对应需求', needs: '安全、政治、完整性', subtitle: '陪自己看一看', question: '这份厌恶背后，什么已经碰到你的底线了？' },
-    { name: '反感', label: '对应需求', needs: '界限、自主权、选择', subtitle: '陪自己看一看', question: '这份反感背后，你最不想再勉强自己的是什么？' },
-    { name: '自我排斥', label: '对应需求', needs: '自我接纳、慈悲、爱', subtitle: '陪自己看一看', question: '当你不太喜欢这样的自己时，你心里最需要被接纳的是哪一部分？' },
-    { name: '孤单', label: '对应需求', needs: '深度连接、温暖、归属感', subtitle: '陪自己看一看', question: '当你觉得没人懂你的时候，你最希望有人怎样靠近你？' },
-    { name: '厌烦', label: '对应需求', needs: '成长、意义、创造力', subtitle: '陪自己看一看', question: '当你觉得提不起劲的时候，你心里其实在渴望一点什么新的东西？' },
-    { name: '不知所措', label: '对应需求', needs: '清晰感、秩序、指引', subtitle: '陪自己看一看', question: '当一切都太乱的时候，你最需要先理清哪一件事？' },
-    { name: '恐惧', label: '对应需求', needs: '安全感、保护、确定性', subtitle: '陪自己看一看', question: '如果先不急着赶走这份恐惧，它在提醒你要照顾哪一部分？' },
+    { name: '紧张', label: '对应需求', needs: '安全感、保护、<br>当下存在', subtitle: '陪自己看一看', question: '这份紧张背后，你最怕哪里出错？' },
+    { name: '恐慌', label: '对应需求', needs: '清晰感、秩序、<br>指引', subtitle: '陪自己看一看', question: '如果先只做一件让自己安全一点的事，那会是什么？' },
+    { name: '怀疑', label: '对应需求', needs: '信任、真相、<br>真实连接', subtitle: '陪自己看一看', question: '当你不太敢相信的时候，你最想确认的是什么？' },
+    { name: '厌恶', label: '对应需求', needs: '安全、政治、<br>完整性', subtitle: '陪自己看一看', question: '这份厌恶背后，什么已经碰到你的底线了？' },
+    { name: '反感', label: '对应需求', needs: '界限、选择、<br>自主权<br>', subtitle: '陪自己看一看', question: '这份反感背后，你最不想再勉强自己的是什么？' },
+    { name: '自我排斥', label: '对应需求', needs: '慈悲、爱<br>自我接纳', subtitle: '陪自己看一看', question: '当你不太喜欢这样的自己时，你心里最需要被接纳的是哪一部分？' },
+    { name: '孤单', label: '对应需求', needs: '温暖、归属感<br>深度连接', subtitle: '陪自己看一看', question: '当你觉得没人懂你的时候，你最希望有人怎样靠近你？' },
+    { name: '厌烦', label: '对应需求', needs: '成长、意义、<br>创造力', subtitle: '陪自己看一看', question: '当你觉得提不起劲的时候，你心里其实在渴望一点什么新的东西？' },
+    { name: '不知所措', label: '对应需求', needs: '清晰感、秩序、<br>指引', subtitle: '陪自己看一看', question: '当一切都太乱的时候，你最需要先理清哪一件事？' },
+    { name: '恐惧', label: '对应需求', needs: '安全感、保护、<br>确定性', subtitle: '陪自己看一看', question: '如果先不急着赶走这份恐惧，它在提醒你要照顾哪一部分？' },
     { name: '后悔', label: '对应需求', needs: '经验整合、成长', subtitle: '陪自己看一看', question: '如果这份后悔不是拿来责怪自己，它更想提醒你什么？' },
     { name: '内疚', label: '对应需求', needs: '贡献、价值一致性、<br>修复关系、重新连结', subtitle: '陪自己看一看', question: '这份内疚在提醒你，什么对你来说真的很重要？' },
-    { name: '羞耻', label: '对应需求', needs: '自我价值、<br>被无条件接纳、尊严', subtitle: '陪自己看一看', question: '当你觉得自己不够好的时候，你心里最想被自己接纳的是哪一部分？' },
+    { name: '羞耻', label: '对应需求', needs: '自我价值、尊严<br>被无条件接纳', subtitle: '陪自己看一看', question: '当你觉得自己不够好的时候，你心里最想被自己接纳的是哪一部分？' },
     { name: '挫败', label: '对应需求', needs: '成长、被肯定、<br>再次尝试的力量', subtitle: '陪自己看一看', question: '这份挫败背后，你其实还想为自己争取什么？' },
-    { name: '困惑', label: '对应需求', needs: '清晰感、秩序、指引', subtitle: '陪自己看一看', question: '当你感到困惑的时候，你心里最想弄清楚的是什么？' },
-    { name: '好奇', label: '对应需求', needs: '探索、学习、新鲜感', subtitle: '陪自己看一看', question: '这个东西最吸引你的是什么？' }
+    { name: '困惑', label: '对应需求', needs: '秩序、指引<br>清晰感', subtitle: '陪自己看一看', question: '当你感到困惑的时候，你心里最想弄清楚的是什么？' },
+    { name: '好奇', label: '对应需求', needs: '探索、学习、<br>新鲜感', subtitle: '陪自己看一看', question: '这个东西最吸引你的是什么？' }
   ];
 
   const container = document.getElementById('cardsContainer');
@@ -320,8 +335,8 @@
           <img src="${backImg}" alt="back">
           <div class="back-content">
             <div class="label">${card.label}</div>
-            <div class="needs">${card.needs}</div>
-            <div class="subtitle">${card.subtitle}</div>
+            <div class="needs${card.name === '内疚' ? ' small' : ''}">${card.needs}</div>
+            <div class="subtitle"><svg class="star-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>${card.subtitle}</div>
             <div class="question">${card.question}</div>
           </div>
         </div>
@@ -338,8 +353,8 @@
     modalFrontName.textContent = card.name;
     modalBackContent.innerHTML = `
       <div class="label">${card.label}</div>
-      <div class="needs">${card.needs}</div>
-      <div class="subtitle">${card.subtitle}</div>
+      <div class="needs${card.name === '内疚' ? ' small' : ''}">${card.needs}</div>
+      <div class="subtitle"><svg class="star-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>${card.subtitle}</div>
       <div class="question">${card.question}</div>
     `;
 
